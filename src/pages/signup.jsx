@@ -1,33 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Signup() {
- 
-  // useEffect
- const [mobileNumber, setMobileNumber] = useState("+91");
+  const [mobileNumber, setMobileNumber] = useState("+91");
 
- const handleFocus = (e) => {
-  if (e.target.selectionStart < 3) {
-    e.target.setSelectionRange(3,13);
-  }
- }
+  const handleFocus = (e) => {
+    if (e.target.selectionStart < 3) {
+      e.target.setSelectionRange(3, 13);
+    }
+  };
 
- const handleInput = (e) => {
-  let value = e.target.value;
-  if (value.length > 13) {
-    value = value.substring(0, 13);
-  } 
-  setMobileNumber(value);
-  // console.log(value);
- };
+  const handleInput = (e) => {
+    let value = e.target.value;
+    if (value.length > 13) {
+      value = value.substring(0, 13);
+    }
+    setMobileNumber(value);
+  };
 
-//  const handleKeyDown = (e) => {
-//   console.log(e.target.selectionStart);
-//   if (e.target.selectionStart < 3) {
-//     e.preventDefault();
-//     e.target.setSelectionRange(3, 3);
-//  }
-// };
   return (
     <div className="signup">
       <div className="container col-xl-10 col-xxl-8 px-4 py-5">
@@ -40,30 +30,27 @@ function Signup() {
               width="500"
             />
           </div>
-          {/* {
-            isSignup?"<></>":
-          } */}
+
           <div className="col-md-10 mx-auto col-lg-5">
             <form className="p-4 p-md-5 ">
               <div className="form-floating mb-3">
                 <h1 classname="signup">Signup now</h1>
                 <p className="lead">Or track your existing application.</p>
                 <div className="input-container">
-                 <input
-                  className="input-num" 
-                  placeholder="+919999999999"
-                  id="mobile-number"
-                  type="text"
-                  value={mobileNumber}
-                  onFocus={handleFocus}
-                  onInput={handleInput}
-                  // onKeyDown={handleKeyDown}
-                  maxLength={13}
-                  style={{ paddingLeft: "35px" }}
+                  <input
+                    className="input-num"
+                    placeholder="+919999999999"
+                    id="mobile-number"
+                    type="text"
+                    value={mobileNumber}
+                    onFocus={handleFocus}
+                    onInput={handleInput}
+                    maxLength={13}
+                    style={{ paddingLeft: "35px" }}
                   />
                   <label for="mobile-number">Mobile Number</label>
                 </div>
-                 
+
                 <p ClassName="footer-paragraph">
                   You will receive an OTP on your number
                 </p>
@@ -76,7 +63,7 @@ function Signup() {
                   className="NRI-link"
                   href="https://zerodha.com/open-account/nri"
                 >
-                Want to open an NRI account?
+                  Want to open an NRI account?
                 </a>
               </div>
             </form>

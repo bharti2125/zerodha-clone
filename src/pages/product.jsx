@@ -132,7 +132,7 @@ function Product() {
           Extend your trading and investment experience even further with our
           partner platforms
         </p>
-        <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div className="row g-4 py-4 row-cols-1 row-cols-lg-3">
           <div className="feature col">
             <a href="#">
               <img
@@ -140,9 +140,7 @@ function Product() {
                 src="https://zerodha.com/static/images/products/smallcase-logo.png"
               />
               <br />
-              <span className="text-12">
-                Thematic investment platform
-              </span>
+              <span className="text-12">Thematic investment platform</span>
             </a>
           </div>
           <div className="feature col">
@@ -177,14 +175,24 @@ function Product() {
         <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div className="feature col">
             <a href="#">
-              <img className="zfh-logo" src="https://zerodha.com/static/images/partners/zerodhafundhouse.png" height="55px" width="195px" />
+              <img
+                className="zfh-logo"
+                src="https://zerodha.com/static/images/partners/zerodhafundhouse.png"
+                height="55px"
+                width="195px"
+              />
               <br />
               <span className="text-12 text-light-grey">Asset management</span>
             </a>
           </div>
           <div className="feature col">
             <a href="#">
-              <img className="goldenpi-logo" src="https://zerodha.com/static/images/partners/tijori.svg" height="55px" width="145px" />
+              <img
+                className="goldenpi-logo"
+                src="https://zerodha.com/static/images/partners/tijori.svg"
+                height="55px"
+                width="145px"
+              />
               <br />
               <span className="text-12 text-light-grey">
                 Fundamental research platform
@@ -193,7 +201,12 @@ function Product() {
           </div>
           <div className="feature col">
             <a href="#">
-              <img className="ditto-logo" src="	https://zerodha.com/static/images/products/ditto-logo.png" height="55px" width="145px" />
+              <img
+                className="ditto-logo"
+                src="	https://zerodha.com/static/images/products/ditto-logo.png"
+                height="55px"
+                width="145px"
+              />
               <br />
               <span className="text-12 text-light-grey">Insurance</span>
             </a>

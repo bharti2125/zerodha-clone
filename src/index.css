@@ -1,169 +1,166 @@
 .d-flex {
-    padding-left: 10px;
-    padding-right: 10px;  
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
-
 .nav-link {
-    color: rgb(72, 61, 61);
-    padding: 20px;
-    font-size: 15px;
+  color: rgb(72, 61, 61);
+  padding: 20px;
+  font-size: 15px;
 }
 
 .navbar-link {
-    text-decoration: none;
-    font-size: 18px;
+  text-decoration: none;
+  font-size: 18px;
 }
 
 .footer-paragraph {
-    font-size: small;
-    color: rgb(130, 126, 126);
-    padding-left: 50px;
-    padding-right: 50px;   
+  font-size: small;
+  color: rgb(130, 126, 126);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
-.footer-link{
-    text-decoration: none;
-    color: rgb(108, 102, 102);
-    padding-left: 12px;
-    padding-right: 12px;
+.footer-link {
+  text-decoration: none;
+  color: rgb(108, 102, 102);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.footer-link:hover {
+  color: blue;
 }
 
-.col-md-5 {   
-    padding-left: 0px;
-    padding-top: 10px;
-    
-} 
+.col-md-5 {
+  padding-left: 0px;
+  padding-top: 10px;
+}
 
-.col-md-7 {  
-    padding-top: 60px;
-    padding-left: 80px;     
+.col-md-7 {
+  padding-top: 60px;
+  padding-left: 80px;
 }
 
 .featurette-heading {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .lead {
-    margin-top: 16px;
-    font-size: 17px;
-    font-weight: 400;
-    color: gray
+  margin-top: 16px;
+  font-size: 17px;
+  font-weight: 400;
+  color: gray;
 }
 
-
 .text-body-emphasis {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .col-lg-6 {
-    font-size: 22px;
-    padding-bottom: 10px;
+  font-size: 22px;
+  padding-bottom: 10px;
 }
 
 .btn {
-    height: 50px;
-    font-size: 20px;
+  height: 50px;
+  font-size: 20px;
 }
 
-
 .col-lg-6 .h1 {
-    font-size: 25px;
- } 
- 
+  font-size: 25px;
+}
+
 .link {
-    display: inline;
-    font-size: 17px;
-    align-items: center;
-    text-decoration: none;    
-} 
+  display: inline;
+  font-size: 17px;
+  align-items: center;
+  text-decoration: none;
+}
 
 .link-container {
-    display: flex;    
-} 
+  display: flex;
+}
 
 .pricing-box {
-    height: 180px;
-    width: 200px;
-    padding: 10px;
-    padding-top: 20px;
-    
+  height: 180px;
+  width: 200px;
+  padding: 10px;
+  padding-top: 20px;
 }
 
 .col-6 {
-    padding: 0;
-    border: 1px solid rgb(138, 136, 136);
-    border-radius: 5px;
-
+  padding: 0;
+  border: 1px solid rgb(138, 136, 136);
+  border-radius: 5px;
 }
 
-.display-5  {
-    font-size: 35px;
-    padding-top: 50px;   
+.display-5 {
+  font-size: 35px;
+  padding-top: 50px;
 }
 
 .market-edu {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .icon-link {
-    text-decoration: none;
-    height: 30px;   
+  text-decoration: none;
+  height: 30px;
 }
 .booking-model {
-    font-size: 32px;
-    text-align: center;
-    padding: 95px 95px 95px 95px;
-    color: rgb(60, 56, 56);
+  font-size: 32px;
+  text-align: center;
+  padding: 95px 95px 95px 95px;
+  color: rgb(60, 56, 56);
 }
 
 .people {
-    text-align: center;
-    padding-top: 35px;
-    padding-bottom: 30px;
+  text-align: center;
+  padding-top: 35px;
+  padding-bottom: 30px;
 }
 .connect-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .bd-placeholder-img {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .image-text {
-    padding-left: 95px;
-    padding-top: 10px;
+  padding-left: 95px;
+  padding-top: 10px;
 }
 
 .bio-details {
-    text-align: left;
-    margin-top: 10px;
-    padding-left: 70px;
-    padding-right: 70px; 
-  }
+  text-align: left;
+  margin-top: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+}
 .show-bio summary {
-    list-style: none;
-    cursor: pointer;
+  list-style: none;
+  cursor: pointer;
 }
 .bi::before {
-    content: "^";
-    display: inline-block;
-    margin-left: 5px;
-    transition: transform 0.3s ease;
+  content: "^";
+  display: inline-block;
+  margin-left: 5px;
+  transition: transform 0.3s ease;
 }
 .show-bio[open] .bi::before {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .col-lg-4 {
-    text-align: center;
-    padding-top: 30px;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .profile-img {
-    height: 200px;
-    width: 200px;
-    border-radius: 50%;
-
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 .Nithin-img {
   height: 300px;
@@ -172,199 +169,237 @@
 }
 
 .text-body-emphasis {
-    padding-top: 70px;
+  padding-top: 70px;
 }
 
 .text-para {
-    font-size: smaller;
-    color: rgb(109, 105, 105);
-    padding-top: 30px;
+  font-size: smaller;
+  color: rgb(109, 105, 105);
+  padding-top: 30px;
 }
 
 .link-pricing {
-    text-decoration: none;
-    font-size: 20px;
-    padding-left: 160px;
-    padding-top: 20px;
-    padding-bottom: 40px;
-    
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 160px;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 #link-price {
-    margin: 200px;
+  margin: 200px;
 }
 
 .pricing-img-icon {
-    height: 200px;
-    width: 250px;
-    background-color: white; 
+  height: 200px;
+  width: 250px;
+  background-color: white;
 }
 .feature {
-    padding-left: 30px;
-    padding-right: 50px;
+  width: 300px;
 }
 .fs-2 {
-    padding-top: 0; 
+  padding-top: 0;
 }
 
 .investment-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 .col-md-7 {
-    padding-top: 60px;
-    height: 400px;
-    width: 550px;
-    margin-left: 10px;
-    
+  padding-top: 60px;
+  height: 400px;
+  width: 550px;
+  margin-left: 10px;
 }
 .pro-img {
-    height: 400px;
-    width: 480px;
-    
+  height: 400px;
+  width: 480px;
 }
 
 .link-product {
-    text-decoration: none;
-    
+  text-decoration: none;
 }
 
 #product-link {
-    margin-left: 120px;
+  margin-left: 120px;
 }
 .position-relative {
-    color: rgb(66, 62, 62);
+  color: rgb(66, 62, 62);
 }
 .text-body-emphasis {
-    font-size: 35px;
+  font-size: 35px;
 }
-
 
 .text-12 {
-    color: rgb(125, 122, 122);
-    text-decoration : none;
-    
+  color: rgb(125, 122, 122);
+  text-decoration: none;
 }
-
 
 .suppot-portal {
-    background-color: rgb(55, 28, 232);
+  background-color: #387ed1;
+  color: white;
+  padding: 50px;
 }
-/* 
-.relevant-topic {
-    font-weight: 400;
-    margin-top: 50px;
-    padding-left: 40px;
-}
-.fw {
-   font-weight: 400; 
-   border:2px solid black;
-   padding-left: 25px;
-   padding-top: 0;
-    
-}
-
-
-   */
-
-/* .signup {
-    font-weight: 900;
-} */
-
 
 .NRI-link {
-    font-size: smaller;
-    text-Decoration: none ;
+  font-size: smaller;
+  text-decoration: none;
 }
-/* 
-.otp-num {    
-    font-size: small;
-    color: rgb(152, 149, 149);
-} */
+
 .input-container {
-    position: relative;
-    margin: 20px 0;
+  position: relative;
+  margin: 20px 0;
 }
 .input-container label {
-    position: absolute;
-    top: -10px;
-    left: 10px;
-    background-color: white;
-    padding: 0 5px;
-    font-size: 10px;
-    color: gray;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  background-color: white;
+  padding: 0 5px;
+  font-size: 10px;
+  color: gray;
 }
 .input-num {
-    width: 100%;
-    padding: 8px;
-    padding-left: 8px; /* Adjust padding to accommodate the placeholder */
-    border: 1px solid #ccc;
-    border-radius: 3px;
+  width: 100%;
+  padding: 8px;
+  padding-left: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
 }
 
 #button {
-    margin-left: 45%;
+  margin-left: 45%;
 }
 
 .text-12 {
-    text-decoration: none;
+  text-decoration: none;
 }
 .d-flex {
-    padding-left: 50px;
-    padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .front-text {
-    padding-left: 50px;
-    padding-right: 50px;  
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .about {
-    padding-left: 50px;
-    padding-right: 50px;   
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .pricing {
-    padding-left: 50px;
-    padding-right: 50px;    
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .product {
-    padding-left: 50px;
-    padding-right: 50px;  
+  padding-left: 20px;
+  padding-right: 20px;
 }
-
-
-.support {
-    padding-left: 50px;
-    padding-right: 50px; 
-}
-
-.row {
-    padding-left: 50px;
-}
-
-
-    
-
-
-.social {   
-    display: flex;
-    list-style-type: none;
-    
+.social {
+  display: flex;
+  list-style-type: none;
 }
 .youtube-logo {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-/* Example CSS to ensure the list item is visible */
-/* li a {
-    display: inline-block;
-    visibility: visible;
-    opacity: 1;
-  } */
-  
 .support-link {
-    list-style-type: none;
-    text-decoration: none;
-    border:2px solid black;
+  list-style-type: none;
+}
+
+.paragraph-container {
+  display: flex;
+}
+
+.first-paragraph {
+  height: 400px;
+  width: 900px;
+  padding: 40px;
+}
+
+.second-paragraph {
+  padding: 40px;
+  height: 400px;
+  width: 900px;
+}
+
+.support-heading-link {
+  color: black;
+  text-decoration: none;
+}
+
+.col {
+  padding-left: 30px;
+  margin-left: 50px;
+}
+.relevant-topic {
+  padding-left: 50px;
+}
+
+.list {
+  text-decoration: none;
+}
+.support-link a {
+  text-decoration: none;
+}
+
+.feature h5:hover a {
+  color: rgb(25, 25, 197);
+}
+
+.sup-inline {
+  display: flex;
+  height: 50px;
+}
+
+#track-ticket {
+  color: white;
+  padding-left: 200px;
+  margin-left: 600px;
+}
+
+.support-container {
+  display: flex;
+  height: 200px;
+  padding-left: 0px;
+}
+.support-col-1 a {
+  color: white;
+  margin-right: 40px;
+  font-size: larger;
+  padding-bottom: 40px;
+}
+
+.support-col-2 {
+  padding-left: 45px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  text-decoration: underline;
+}
+.support-col-1 {
+  padding-right: 40px;
+  margin-top: 20px;
+  padding-bottom: 40px;
+}
+
+.search-container {
+  position: relative;
+  display: inline-block;
+}
+
+.input-area {
+  width: 650px;
+  padding: 12px;
+  padding-right: 30px;
+}
+
+.bi-search {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }

@@ -7,7 +7,7 @@ function Front() {
         <img
           src="https://zerodha.com/static/images/landing.png"
           height="230"
-          width="470"
+          width="500"
           alt="front-img"
         />
         <h1 className="text-body-emphasis">Invest in everything</h1>
@@ -107,7 +107,9 @@ function Front() {
             <div className="col-6 text-center px-0">
               <div className="pricing-box">
                 <h1>₹0</h1>
-                <p className="lead">Free equity delivery and direct mutual funds</p>
+                <p className="lead">
+                  Free equity delivery and direct mutual funds
+                </p>
               </div>
             </div>
             <div className="col-6 text-center px-0">
